@@ -1,0 +1,12 @@
+name: Used workflow
+
+on: 
+  push:
+    branches: [ main ] 
+  repository_dispatch:
+    types: [ cart-tests ] 
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
