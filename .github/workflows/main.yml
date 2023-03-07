@@ -1,4 +1,4 @@
-name: Used workflow
+name: Used-workflow
 
 on: 
   push:
