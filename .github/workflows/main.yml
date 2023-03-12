@@ -23,4 +23,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: echo ${{ github.event.client_payload.title }}
-      - run: echo ${{ fromJson(github.event.client_payload.main) }}
+      - run: echo ${{ github.event.client_payload.main }}
